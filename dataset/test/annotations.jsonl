@@ -1,0 +1,60 @@
+{"image": "images/p01_t01.jpg", "image_type": "single", "faces": [{"identity_id": "p01", "bbox": [124, 248, 437, 498]}]}
+{"image": "images/p01_t02.jpg", "image_type": "multi", "faces": [{"identity_id": "unknown", "bbox": [159, 56, 154, 201]}, {"identity_id": "p01", "bbox": [360, 102, 162, 179]}]}
+{"image": "images/p01_t03.jpg", "image_type": "multi", "faces": [{"identity_id": "p01", "bbox": [334, 176, 195, 234]}, {"identity_id": "unknown", "bbox": [551, 221, 173, 166]}]}
+{"image": "images/p02_t01.jpg", "image_type": "single", "faces": [{"identity_id": "p02", "bbox": [172, 170, 331, 394]}]}
+{"image": "images/p02_t02.jpg", "image_type": "multi", "faces": [{"identity_id": "unknown", "bbox": [372, 446, 165, 155]}, {"identity_id": "p02", "bbox": [584, 443, 155, 170]}]}
+{"image": "images/p02_t03.jpg", "image_type": "multi", "faces": [{"identity_id": "p02", "bbox": [204, 136, 147, 132]}, {"identity_id": "unknown", "bbox": [405, 155, 123, 147]}, {"identity_id": "unknown", "bbox": [579, 119, 107, 134]}]}
+{"image": "images/p03_t01.jpg", "image_type": "single", "faces": [{"identity_id": "p03", "bbox": [604, 289, 126, 201]}]}
+{"image": "images/p03_t02.jpg", "image_type": "multi", "faces": [{"identity_id": "p03", "bbox": [87, 467, 644, 661]}, {"identity_id": "unknown", "bbox": [1166, 183, 637, 754]}]}
+{"image": "images/p03_t03.jpg", "image_type": "multi", "faces": [{"identity_id": "unknown", "bbox": [379, 180, 211, 253]}, {"identity_id": "p03", "bbox": [642, 184, 192, 270]}, {"identity_id": "unknown", "bbox": [920, 140, 211, 293]}]}
+{"image": "images/p04_t01.jpg", "image_type": "single", "faces": [{"identity_id": "p04", "bbox": [315, 71, 204, 292]}]}
+{"image": "images/p04_t02.jpg", "image_type": "multi", "faces": [{"identity_id": "p04", "bbox": [511, 229, 332, 409]}, {"identity_id": "unknown", "bbox": [165, 371, 323, 382]}]}
+{"image": "images/p04_t03.jpg", "image_type": "multi", "faces": [{"identity_id": "unknown", "bbox": [581, 542, 367, 445]}, {"identity_id": "p04", "bbox": [314, 353, 226, 290]}]}
+{"image": "images/p05_t01.jpg", "image_type": "single", "faces": [{"identity_id": "p05", "bbox": [372, 388, 171, 254]}]}
+{"image": "images/p05_t02.jpg", "image_type": "multi", "faces": [{"identity_id": "unknown", "bbox": [166, 443, 321, 378]}, {"identity_id": "p05", "bbox": [492, 296, 259, 329]}]}
+{"image": "images/p05_t03.jpg", "image_type": "multi", "faces": [{"identity_id": "unknown", "bbox": [310, 139, 182, 260]}, {"identity_id": "p05", "bbox": [602, 304, 191, 269]}]}
+{"image": "images/p06_t01.jpg", "image_type": "single", "faces": [{"identity_id": "p06", "bbox": [567, 70, 426, 407]}]}
+{"image": "images/p06_t02.jpg", "image_type": "multi", "faces": [{"identity_id": "p06", "bbox": [1810, 224, 568, 616]}, {"identity_id": "unknown", "bbox": [1027, 759, 478, 540]}]}
+{"image": "images/p06_t03.jpg", "image_type": "multi", "faces": [{"identity_id": "p06", "bbox": [995, 382, 443, 641]}, {"identity_id": "unknown", "bbox": [995, 1929, 448, 557]}, {"identity_id": "unknown", "bbox": [1787, 1387, 490, 618]}]}
+{"image": "images/p07_t01.jpg", "image_type": "single", "faces": [{"identity_id": "p07", "bbox": [715, 609, 260, 272]}]}
+{"image": "images/p07_t02.jpg", "image_type": "multi", "faces": [{"identity_id": "unknown", "bbox": [339, 405, 113, 163]}, {"identity_id": "p07", "bbox": [460, 414, 107, 134]}]}
+{"image": "images/p07_t03.jpg", "image_type": "multi", "faces": [{"identity_id": "unknown", "bbox": [1352, 1035, 348, 478]}, {"identity_id": "p07", "bbox": [1888, 1144, 374, 380]}]}
+{"image": "images/p08_t01.jpg", "image_type": "single", "faces": [{"identity_id": "p08", "bbox": [253, 313, 154, 187]}]}
+{"image": "images/p08_t02.jpg", "image_type": "multi", "faces": [{"identity_id": "p08", "bbox": [192, 71, 152, 156]}, {"identity_id": "unknown", "bbox": [5, 51, 146, 187]}]}
+{"image": "images/p08_t03.jpg", "image_type": "multi", "faces": [{"identity_id": "unknown", "bbox": [1066, 333, 643, 798]}, {"identity_id": "p08", "bbox": [2542, 792, 583, 572]}]}
+{"image": "images/p09_t01.jpg", "image_type": "single", "faces": [{"identity_id": "p09", "bbox": [737, 185, 180, 177]}]}
+{"image": "images/p09_t02.jpg", "image_type": "multi", "faces": [{"identity_id": "p09", "bbox": [333, 85, 70, 68]}, {"identity_id": "unknown", "bbox": [198, 41, 74, 68]}]}
+{"image": "images/p09_t03.jpg", "image_type": "multi", "faces": [{"identity_id": "unknown", "bbox": [76, 61, 79, 87]}, {"identity_id": "unknown", "bbox": [186, 43, 68, 90]}, {"identity_id": "unknown", "bbox": [278, 75, 51, 70]}, {"identity_id": "unknown", "bbox": [346, 101, 25, 38]}, {"identity_id": "p09", "bbox": [381, 37, 86, 96]}]}
+{"image": "images/p10_t01.jpg", "image_type": "single", "faces": [{"identity_id": "p10", "bbox": [305, 125, 126, 136]}]}
+{"image": "images/p10_t02.jpg", "image_type": "multi", "faces": [{"identity_id": "p10", "bbox": [263, 127, 56, 61]}, {"identity_id": "unknown", "bbox": [357, 69, 72, 69]}, {"identity_id": "unknown", "bbox": [173, 124, 51, 49]}, {"identity_id": "unknown", "bbox": [93, 116, 58, 67]}]}
+{"image": "images/p10_t03.jpg", "image_type": "multi", "faces": [{"identity_id": "p10", "bbox": [498, 252, 81, 102]}, {"identity_id": "unknown", "bbox": [692, 210, 86, 97]}]}
+{"image": "images/p11_t01.jpg", "image_type": "single", "faces": [{"identity_id": "p11", "bbox": [246, 30, 112, 131]}]}
+{"image": "images/p11_t02.jpg", "image_type": "multi", "faces": [{"identity_id": "p11", "bbox": [428, 10, 73, 92]}, {"identity_id": "unknown", "bbox": [161, 5, 81, 95]}, {"identity_id": "unknown", "bbox": [299, 27, 69, 101]}, {"identity_id": "unknown", "bbox": [505, 72, 82, 93]}]}
+{"image": "images/p11_t03.jpg", "image_type": "multi", "faces": [{"identity_id": "unknown", "bbox": [169, 65, 76, 85]}, {"identity_id": "unknown", "bbox": [245, 28, 65, 97]}, {"identity_id": "p11", "bbox": [370, 17, 79, 105]}, {"identity_id": "unknown", "bbox": [462, 65, 58, 86]}]}
+{"image": "images/p12_t01.jpg", "image_type": "single", "faces": [{"identity_id": "p12", "bbox": [180, 43, 186, 171]}]}
+{"image": "images/p12_t02.jpg", "image_type": "multi", "faces": [{"identity_id": "p12", "bbox": [282, 36, 83, 83]}, {"identity_id": "unknown", "bbox": [76, 51, 81, 76]}]}
+{"image": "images/p12_t03.jpg", "image_type": "multi", "faces": [{"identity_id": "p12", "bbox": [225, 54, 102, 109]}, {"identity_id": "unknown", "bbox": [22, 51, 97, 102]}, {"identity_id": "unknown", "bbox": [487, 33, 82, 107]}]}
+{"image": "images/p13_t01.jpg", "image_type": "single", "faces": [{"identity_id": "p13", "bbox": [168, 28, 121, 169]}]}
+{"image": "images/p13_t02.jpg", "image_type": "multi", "faces": [{"identity_id": "p13", "bbox": [357, 107, 53, 70]}, {"identity_id": "unknown", "bbox": [259, 113, 68, 64]}, {"identity_id": "unknown", "bbox": [125, 89, 66, 80]}]}
+{"image": "images/p13_t03.jpg", "image_type": "multi", "faces": [{"identity_id": "p13", "bbox": [118, 68, 93, 109]}, {"identity_id": "unknown", "bbox": [399, 79, 94, 88]}, {"identity_id": "unknown", "bbox": [349, 88, 59, 81]}, {"identity_id": "unknown", "bbox": [214, 85, 55, 91]}]}
+{"image": "images/p14_t01.jpg", "image_type": "single", "faces": [{"identity_id": "p14", "bbox": [162, 40, 142, 171]}]}
+{"image": "images/p14_t02.jpg", "image_type": "multi", "faces": [{"identity_id": "p14", "bbox": [86, 76, 108, 167]}, {"identity_id": "unknown", "bbox": [551, 91, 122, 136]}, {"identity_id": "unknown", "bbox": [21, 105, 51, 102]}]}
+{"image": "images/p14_t03.jpg", "image_type": "multi", "faces": [{"identity_id": "p14", "bbox": [192, 36, 92, 114]}, {"identity_id": "unknown", "bbox": [369, 7, 92, 128]}, {"identity_id": "unknown", "bbox": [304, 30, 51, 72]}]}
+{"image": "images/p15_t01.jpg", "image_type": "single", "faces": [{"identity_id": "p15", "bbox": [22, 109, 235, 251]}]}
+{"image": "images/p15_t02.jpg", "image_type": "multi", "faces": [{"identity_id": "p15", "bbox": [400, 205, 131, 175]}, {"identity_id": "unknown", "bbox": [624, 347, 133, 141]}, {"identity_id": "unknown", "bbox": [699, 195, 130, 133]}, {"identity_id": "unknown", "bbox": [650, 13, 96, 153]}]}
+{"image": "images/p15_t03.jpg", "image_type": "multi", "faces": [{"identity_id": "p15", "bbox": [203, 72, 66, 66]}, {"identity_id": "unknown", "bbox": [309, 25, 84, 84]}, {"identity_id": "unknown", "bbox": [88, 45, 81, 86]}]}
+{"image": "images/p16_t01.jpg", "image_type": "single", "faces": [{"identity_id": "p16", "bbox": [457, 183, 370, 455]}]}
+{"image": "images/p16_t02.jpg", "image_type": "multi", "faces": [{"identity_id": "p16", "bbox": [141, 41, 93, 102]}, {"identity_id": "unknown", "bbox": [294, 34, 110, 121]}, {"identity_id": "unknown", "bbox": [391, 2, 81, 82]}]}
+{"image": "images/p16_t03.jpg", "image_type": "multi", "faces": [{"identity_id": "p16", "bbox": [194, 167, 60, 82]}, {"identity_id": "unknown", "bbox": [70, 82, 73, 105]}, {"identity_id": "unknown", "bbox": [311, 133, 72, 97]}, {"identity_id": "unknown", "bbox": [469, 135, 60, 74]}]}
+{"image": "images/p17_t01.jpg", "image_type": "single", "faces": [{"identity_id": "p17", "bbox": [156, 12, 133, 153]}]}
+{"image": "images/p17_t02.jpg", "image_type": "multi", "faces": [{"identity_id": "p17", "bbox": [351, 101, 64, 78]}, {"identity_id": "unknown", "bbox": [489, 13, 80, 85]}, {"identity_id": "unknown", "bbox": [202, 128, 76, 87]}, {"identity_id": "unknown", "bbox": [73, 70, 75, 89]}]}
+{"image": "images/p17_t03.jpg", "image_type": "multi", "faces": [{"identity_id": "unknown", "bbox": [119, 40, 137, 157]}, {"identity_id": "p17", "bbox": [537, 26, 142, 167]}]}
+{"image": "images/p18_t01.jpg", "image_type": "single", "faces": [{"identity_id": "p18", "bbox": [170, 396, 802, 743]}]}
+{"image": "images/p18_t02.jpg", "image_type": "multi", "faces": [{"identity_id": "p18", "bbox": [459, 274, 271, 292]}, {"identity_id": "unknown", "bbox": [257, 173, 173, 257]}, {"identity_id": "unknown", "bbox": [4, 131, 145, 239]}, {"identity_id": "unknown", "bbox": [866, 360, 87, 167]}]}
+{"image": "images/p18_t03.jpg", "image_type": "multi", "faces": [{"identity_id": "p18", "bbox": [299, 122, 93, 111]}, {"identity_id": "unknown", "bbox": [129, 205, 88, 99]}, {"identity_id": "unknown", "bbox": [428, 176, 89, 93]}]}
+{"image": "images/p19_t01.jpg", "image_type": "single", "faces": [{"identity_id": "p19", "bbox": [631, 79, 207, 264]}]}
+{"image": "images/p19_t02.jpg", "image_type": "multi", "faces": [{"identity_id": "p19", "bbox": [583, 92, 126, 135]}, {"identity_id": "unknown", "bbox": [377, 60, 118, 179]}, {"identity_id": "unknown", "bbox": [99, 83, 120, 157]}]}
+{"image": "images/p19_t03.jpg", "image_type": "multi", "faces": [{"identity_id": "p19", "bbox": [789, 132, 351, 444]}, {"identity_id": "unknown", "bbox": [264, 467, 227, 294]}, {"identity_id": "unknown", "bbox": [1207, 493, 321, 342]}, {"identity_id": "unknown", "bbox": [2083, 160, 264, 287]}]}
+{"image": "images/p20_t01.jpg", "image_type": "single", "faces": [{"identity_id": "p20", "bbox": [113, 21, 78, 86]}]}
+{"image": "images/p20_t02.jpg", "image_type": "multi", "faces": [{"identity_id": "p20", "bbox": [237, 157, 60, 78]}, {"identity_id": "unknown", "bbox": [120, 121, 70, 92]}, {"identity_id": "unknown", "bbox": [348, 161, 58, 68]}]}
+{"image": "images/p20_t03.jpg", "image_type": "multi", "faces": [{"identity_id": "p20", "bbox": [181, 56, 84, 102]}, {"identity_id": "unknown", "bbox": [340, 33, 83, 84]}, {"identity_id": "unknown", "bbox": [71, 98, 64, 93]}]}
