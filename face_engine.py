@@ -49,10 +49,12 @@ class FaceEngine:
         nms_threshold: float = 0.30,
         top_k: int = 5000,
         minimum_face_size: int = 40,
+        max_input_size: int | None = 960,
     ) -> None:
         self.detector_model = Path(detector_model)
         self.recognizer_model = Path(recognizer_model)
         self.minimum_face_size = minimum_face_size
+        self.max_input_size = max_input_size
         self._validate_model_files()
         detector_model_path = self._opencv_model_path(self.detector_model)
         recognizer_model_path = self._opencv_model_path(self.recognizer_model)
@@ -113,14 +115,29 @@ class FaceEngine:
     def detect(self, image: np.ndarray) -> list[DetectedFace]:
         self._validate_image(image)
         height, width = image.shape[:2]
-        self.detector.setInputSize((width, height))
-        _, detections = self.detector.detect(image)
+        scale = 1.0
+        detection_image = image
+        if self.max_input_size and max(width, height) > self.max_input_size:
+            scale = self.max_input_size / max(width, height)
+            detection_image = cv2.resize(
+                image,
+                (max(1, round(width * scale)), max(1, round(height * scale))),
+                interpolation=cv2.INTER_AREA,
+            )
+
+        detection_height, detection_width = detection_image.shape[:2]
+        self.detector.setInputSize((detection_width, detection_height))
+        _, detections = self.detector.detect(detection_image)
 
         if detections is None:
             return []
 
         faces: list[DetectedFace] = []
         for row in detections:
+            row = np.asarray(row, dtype=np.float32).copy()
+            if scale != 1.0:
+                row[:14] /= scale
+
             x, y, w, h = row[:4]
             if min(w, h) < self.minimum_face_size:
                 continue
@@ -132,7 +149,7 @@ class FaceEngine:
                     bbox=bbox,
                     landmarks=landmarks,
                     score=float(row[14]),
-                    raw_detection=np.asarray(row, dtype=np.float32),
+                    raw_detection=row,
                 )
             )
         return faces

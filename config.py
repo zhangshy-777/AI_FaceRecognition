@@ -23,6 +23,7 @@ class Settings:
     detection_score_threshold: float = 0.50
     detection_nms_threshold: float = 0.30
     detection_top_k: int = 5000
+    detector_max_input_size: int = 960
 
     # This is an initial open-set threshold. It should be finalized on a
     # validation set, not on the submitted test set.

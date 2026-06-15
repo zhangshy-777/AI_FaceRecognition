@@ -50,6 +50,7 @@ def create_engine() -> FaceEngine:
         nms_threshold=SETTINGS.detection_nms_threshold,
         top_k=SETTINGS.detection_top_k,
         minimum_face_size=SETTINGS.minimum_face_size,
+        max_input_size=SETTINGS.detector_max_input_size,
     )
 
 
